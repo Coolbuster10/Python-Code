@@ -1,0 +1,20 @@
+dollar = int(input("Enter amount of dollar's:"))
+currency = (input("Enter the currency Saudi Riyal or Euro or Kuwaiti Dinar:"))
+
+def riyal(dollar,currency):
+     print(dollar*3.75)
+
+def euro(dollar,currency):
+     print(dollar*0.84)
+
+def dinar(dollar,currency):
+     print(dollar*0.30)
+
+if currency == 'Riyal':
+     riyal(dollar,.27)
+
+if currency == 'Euro':
+    euro(dollar,.22)
+
+if currency == 'Dinar':
+     dinar(dollar,.080)
