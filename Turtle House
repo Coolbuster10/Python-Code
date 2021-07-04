@@ -1,0 +1,48 @@
+import turtle
+t = turtle.Turtle()
+
+#house
+t.forward(200)
+t.left(90)
+t.forward(200)
+t.left(45)
+t.forward(140)
+t.left(90)
+t.forward(140)
+t.left(135)
+t.forward(200)
+t.back(200)
+t.right(90)
+t.forward(200)
+t.left(90)
+t.forward(200)
+#door
+t.back(120)
+t.left(90)
+t.forward(80)
+t.right(90)
+t.forward(40)
+t.right(90)
+t.forward(80)
+#windows
+t.penup()
+t.left(180)
+t.forward(120)
+t.pendown()
+def window(side):
+    t.forward(side)
+    t.right(90)
+    t.forward(side)
+    t.right(90)
+    t.forward(side)
+    t.right(90)
+    t.forward(side)
+window(40)
+
+t.penup()
+t.forward(40)
+t.pendown()
+
+window(40)
+
+t.hideturtle()
