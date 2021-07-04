@@ -1,0 +1,30 @@
+symb = input(print("Type + to add Type - to subtract Type * to multiple Type / to divide:"))
+num1 = int(input("Enter number 1:"))
+num2 = int(input("Enter number 2:"))
+
+def add(num1,num2):
+    print(num1+num2)
+
+def subtract(num1,num2):
+    print(num1-num2)
+
+def muiltiple(num1,num2):
+    print(num1*num2)
+
+def divide(num1,num2):
+    print(num1/num2)
+
+if symb == '+':
+    add(num1,num2)
+
+elif symb == '-':
+    subtract(num1,num2)
+
+elif symb == '*':
+    muiltiple(num1,num2)
+
+elif symb == '/':
+    divide(num1,num2)
+
+
+
